@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLES</title>
+    <link rel="icon" href="./project/img1.png">
+    <link rel="stylesheet" href="./sytle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <div class="header" >
+            <nav>
+                <div style="display: flex;"> 
+                    <img  style="width: 80px;height: 50px;"  src="C:\Users\Student\Desktop\E-Commerce\project\Colorful_Illustrative_Online_Shop_Logo-removebg-preview.png"> <span><h1 style="  font-family: Playwrite GB S, cursive;font-size: 27px;">STYLES</h1> </span> 
+                
+
+                    <ul>
+                        <li>Home |</li>
+                        <li>Product |</li>
+                        <li>About us |</li>
+                        <li>Contact us</li>
+                    </ul>
+                <div class="dropdown-container">
+                    <input type="text" id="dropdownSearch" placeholder="Search..." onkeyup="filterFunction()">
+                    <div id="dropdownList" class="dropdown-content">
+                        <option>Perfume</option>
+                        <option>Sneaker</option>
+                        <option>Grand dress</option>
+                        <option>Comfort sofa</option>
+                        <option>King size bed</option>
+                        <option>Kitchen vessels</option>
+                    </div>
+                </div>
+                <script src="scripts.js"></script>
+                
+                </div>
+               
+            </nav>
+        </div>
+        <div class="img">
+            <img src="./img14.jpg" alt="Responsive Image" style="height:500px; width:100%;">
+        </div>
+         <hr>
+        <div class="product">
+            <div class="box">
+                <img src="./img1.jpg" style="height:200px; width:320px;">
+                    <p>
+                        Perfume for both male& female 
+                        <br>
+                        <button onclick="order()">RS:200</button></p>
+            </div>
+            <div class="box">
+                <img src="./img2.jpg" style="height:200px; width:320px;">
+                    <p> women Slip on Sneaker
+                        <br>
+                        <button onclick="order()">RS:900</button></p>
+            </div>
+            <div class="box">
+                <img src="./img3.jpg" style="height:200px; width:320px;">
+                    <p>Grand dress for wedding
+                        <br>
+                        <button onclick="order()">RS:1200</button></p>
+            </div>
+        </div>
+        <div class="box1">
+    
+            <img src="C:\Users\Student\Desktop\E-Commerce\project\sofa - Copy.jpg" style="height:200px; width:320px;">
+                <p>Comfort Sofa 
+                    <br>
+                    <button onclick="order()">RS:20000</button></p>
+
+        </div>
+        <div class="box1">
+            <img src="C:\Users\Student\Desktop\E-Commerce\project\king bed.jpg" style="height:200px; width:320px;">
+                <p>King size bed
+                    <br>
+                    <button onclick="order()">RS:2000</button></p>
+        </div>
+        <div class="box1">
+            <img src="C:\Users\Student\Desktop\E-Commerce\project\k.jpg" style="height:200px; width:320px;">
+            <p>Kitchen vessels for Home
+                <br>
+                <button onclick="order()" style="padding: 2px;">RS:20000</button>
+            </p>
+        </div>
+        <br>
+        <br>
+        <hr>
+    
+        <div class="About">
+            <h1>ABOUT US</h1>
+            <p style="font-style: normal;">Welcome to style! Founded by Jeff Bezos in 1994, Amazon has grown from an online bookstore to a global leader in e-commerce, cloud computing, digital streaming, and artificial intelligence. Our mission is to be Earth's most customer-centric company, offering the lowest prices, the best selection, and utmost convenience. We provide millions of products across categories such as books, electronics, clothing, and home goods. With Amazon Prime, members enjoy free two-day shipping, and exclusive access to movies, TV shows, and music. 
+                Our cloud computing platform, Amazon Web Services (AWS), powers businesses of all sizes.
+             We offer extensive libraries of e-books and audiobooks through Kindle and Audible, and our Alexa and smart home devices create a connected lifestyle. Innovation is at our core, with investments in AI, machine learning, and robotics. We are committed to sustainability, aiming for net-zero carbon by 2040 through initiatives like The Climate Pledge. Valuing diversity and inclusion, we strive to create a workplace where everyone can thrive, and our community initiatives support education, disaster relief, and local communities worldwide.</p>
+        </div>
+        <br>
+        <hr>
+        <div class="Contact">
+            <h1>CONTACT US</h1>
+            <h3>6789065448</h3>
+            <h3>style@gmail.com</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quisquam ab iure modi aliquam. Omnis architecto minima veniam earum odio voluptas, ipsum vel nobis libero, harum nisi! Aliquid quia doloribus distinctio fugiat eum maiores temporibus repellendus mollitia. Facilis reiciendis maiores mollitia unde ducimus repellendus nulla cumque ullam. Blanditiis et quae eveniet commodi provident ex, deleniti, itaque sed totam nobis ullam perspiciatis molestias quas aliquam fuga suscipit omnis! Minus exercitationem atque cumque unde impedit totam accusamus voluptatem et rerum autem, dignissimos numquam! Facere eos eius minus voluptatibus expedita nulla numquam accusantium, distinctio aperiam amet odio eum sapiente molestias harum deleniti excepturi. ipsum dolor sit amet consectetur adipisicing elit. Vel ab nulla, ea quam velit voluptatum odit. Nesciunt, architecto provident eligendi doloribus nobis in neque aliquam unde, minus, sapiente voluptate itaque facilis soluta ipsa alias laborum officia aliquid fugiat assumenda amet. ipsum dolor sit amet consectetur, adipisicing elit. Aut, itaque! Consequuntur sunt, pariatur explicabo perspiciatis deleniti laudantium, quisquam minus quas, corrupti quia molestiae! Harum incidunt, blanditiis dolorum facilis ab quas!</p>
+        </div>
+        <script>
+            function order() {
+                alert("Your order was successfully placed");
+            }
+        </script>
+        <br>
+        <br>
+        <br>
+        <hr>
+    </body>
+    </html>
